@@ -13,6 +13,12 @@ body {
     overflow-x: hidden;
 }
 
+nav {
+  height: 80px;
+  display: flex;
+}
+
+
 
 nav {
     height: 80px;
@@ -39,6 +45,15 @@ p {
 .purple{
     color: #7342d6;
 }
+
+.book {
+    width: 25%;
+    padding: 24px;
+}
+
+.book__img{
+    width: 100%;
+};
 
 .logo {
     width: 160px;
