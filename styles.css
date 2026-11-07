@@ -53,7 +53,14 @@ p {
 
 .book__img{
     width: 100%;
-};
+}
+
+.book__img--wrapper {
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+}
 
 .logo {
     width: 160px;
@@ -267,13 +274,36 @@ FEATURES
 
 #features {
     height: 1000px;
-    background-color: rgba(115, 86, 214, 0.1);
+    padding-top: 8vw;
+    background-color: rgba(115, 66, 214, 0.1);
 }
 
 .books {
     display: flex;
+    padding: 24px;
 }
 
 .book__img {
     max-height:380px;
+    transition: all 300ms ease;
+    cursor: not-allowed;
+}
+
+.book:hover .book__img {
+    transform: scale(1.03);
+}
+
+.book__title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.book__title:hover {
+    text-decoration: underline;
+    cursor: no-drop;
+}
+
+.book__ratings {
+    margin-bottom: 8px;
+    color: #fabf2a;
 }
