@@ -281,6 +281,7 @@ FEATURES
 .books {
     display: flex;
     padding: 24px;
+    flex-wrap: wrap;
 }
 
 .book__img {
