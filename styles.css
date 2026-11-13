@@ -177,7 +177,7 @@ Landing
 }
 
 header {
-    height: calc(100vh-80px)
+    height: calc(100vh - 80px);
 }
 
 .header__container{
@@ -246,7 +246,7 @@ flex-direction: column;
 align-items: center;
 }
 
-.no-cursor {
+.no__cursor {
     cursor: not-allowed;
 }
 
